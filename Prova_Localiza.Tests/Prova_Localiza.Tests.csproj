@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="NumberDecompositionServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NumberModelTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
