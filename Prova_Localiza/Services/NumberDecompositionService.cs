@@ -8,6 +8,12 @@ namespace Prova_Localiza.Services
 {
     public static class NumberDecompositionService
     {
+        /// <summary>
+        /// Retorna todos os divisores de um numero
+        /// Para cada divisor, é informado se ele é um numero primo
+        /// </summary>
+        /// <param name="number">Numero a ser buscado os divisores</param>
+        /// <returns></returns>
         static public List<NumberModel> GetNumberDivisors(int number)
         {
             List<NumberModel> divisors = new List<NumberModel>();
