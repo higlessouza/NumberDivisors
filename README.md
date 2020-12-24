@@ -5,6 +5,14 @@ Desafio do processo seletivo da localiza.
   - Email: higlessouza@gmail.com
   - Telefone: (31) 98257-7800
 
+### Exemplo de requisição
+
+```sh
+$ http://localhost:51692/NumberDivisors?number=15
+```
+
+![N|Solid](https://i.ibb.co/wsSRR3g/Ex.png)
+
 # Organização do projeto
 
 ### Model 
