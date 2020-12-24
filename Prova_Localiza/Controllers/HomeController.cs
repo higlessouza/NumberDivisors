@@ -10,14 +10,9 @@ namespace Prova_Localiza.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public JsonResult Index()
         {
-            return "funciona";
-        }
-
-         public JsonResult GetNumberDivisors(int number)
-        {
-            return Json(NumberDecompositionService.GetNumberDivisors(number),JsonRequestBehavior.AllowGet);
+            return Json("Exemplo de requisição: http://localhost:port/NumberDivisors?number=90", JsonRequestBehavior.AllowGet);
         }
     }
 }
