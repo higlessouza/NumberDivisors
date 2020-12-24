@@ -23,7 +23,8 @@ Responsável por receber as chamadas REST da API.
 
 ### Test
   - NumberDecompositionServiceTest
+  - NumberModelTest
 
 Responsável por realizar os testes unitários da aplicação
 
-![N|Solid](https://i.ibb.co/vcY1V4r/testes.png)
+![N|Solid](https://i.ibb.co/yS0jNp3/testes.png)
