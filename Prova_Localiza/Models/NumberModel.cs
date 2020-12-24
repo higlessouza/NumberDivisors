@@ -8,16 +8,16 @@ namespace Prova_Localiza.Models
     public class NumberModel
     {
         private int number;
-        private bool primeNumver;
+        private bool primeNumber;
 
         public NumberModel(int value)
         {
             this.number = value;
-            this.primeNumver = IsPrimeNumber(value);
+            this.primeNumber = IsPrimeNumber(value);
         }
 
         public int Number { get => number; set => number = value; }
-        public bool PrimeNumver { get => primeNumver; set => primeNumver = value; }
+        public bool PrimeNumber { get => primeNumber; set => primeNumber = value; }
 
         /// <summary>
         /// Verifica se o numero é primo
